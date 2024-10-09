@@ -1,8 +1,8 @@
-Car Sales Dataset Analysis
-Overview
+## Car Sales Dataset Analysis
+# Overview
 This project involves analyzing a dataset of car sales to derive insights related to car brands, models, and various features such as price, fuel efficiency, engine size, and resale value. Several exploratory data analysis techniques were applied to understand patterns in the data, clean it, and visualize key findings.
 
-Steps Followed in the Analysis
+# Steps Followed in the Analysis
 1. Importing the Dataset and Initial Inspection
 The dataset was imported using the Pandas library.
 Displayed the first 5 rows to understand the structure of the data.
@@ -24,7 +24,7 @@ Insights into price distributions and fuel efficiency variations.
 5. Handling Duplicates
 Checked for duplicate rows in the dataset.
 Duplicates, if any, were removed to ensure data integrity.
-Specific Analysis Performed
+# Specific Analysis Performed
 1. Most Common Car Brand
 Identified the most common car brand using the value_counts() method, which revealed which manufacturer had the highest representation in the dataset.
 2. Manufacturers with Highest and Lowest Average Sales Volume
@@ -48,9 +48,9 @@ Identified the car model with the highest resale value compared to its initial p
 Filtered cars with engine sizes above 2.5 liters and identified the top 3 most fuel-efficient cars among them.
 11. Lexus Model with Highest Horsepower
 Filtered Lexus models and found the one with the highest horsepower.
-Libraries Used
+# Libraries Used
 Pandas: For data manipulation and cleaning.
 Matplotlib: For visualizing the data through plots and charts.
 Seaborn: For advanced visualization, such as correlation matrices.
-Conclusion
+# Conclusion
 This analysis provided valuable insights into the car sales dataset, such as identifying popular brands, understanding price distribution, and analyzing the relationship between various features like engine size, horsepower, and fuel efficiency. Through data cleaning and visualization, several key trends were uncovered, aiding in a better understanding of the automotive market.
